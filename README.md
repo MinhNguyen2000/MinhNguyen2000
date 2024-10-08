@@ -21,6 +21,9 @@ Me? I am an aspiring student learning robotic programming 🤖⚙️ I am passio
 - Self-driving and ROS 2 ([Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control)) => bumperbot_ws repo
 - IBM Deep Learning and Reinforcement Learning ([Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning)) => Course_IBM_DLRL repo
 
+🦾 Robotic project that I am working on
+- ROSMaster X1 Robot and ROS2 => rosmasterx1_ws
+
 📖 Books that I am reading right now
 - Introduction to Autonomous Mobile Robots (Siegwart, Nourbakhsh, and Scaramuzza)
 - Understanding Deep Learning (Simon Prince) [Notebooks](https://udlbook.github.io/udlbook/)
