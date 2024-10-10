@@ -22,9 +22,10 @@ Me? I am an aspiring student learning robotic programming 🤖⚙️ I am passio
 - IBM Deep Learning and Reinforcement Learning ([Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning)) => Course_IBM_DLRL repo
 
 🦾 Robotic project that I am working on
-- ROSMaster X1 Robot and ROS2 => rosmasterx1_ws
+- ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 to ROS2 so that I can leverage newer packages and longer support EOL
+  => X1_ROS1_ws and X1_ROS2_ws repo
 
 📖 Books that I am reading right now
 - Introduction to Autonomous Mobile Robots (Siegwart, Nourbakhsh, and Scaramuzza)
 - Understanding Deep Learning (Simon Prince) [Notebooks](https://udlbook.github.io/udlbook/)
-- Mastering ROS for Robotics Programming - Best practices and trouble shotting solutions when working with ROS (Lentin Joseph and Jonathan Cacace) [Repo](https://github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition)
+- Mastering ROS for Robotics Programming - Best practices and trouble shooting solutions when working with ROS (Lentin Joseph and Jonathan Cacace) [Repo](https://github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition)
