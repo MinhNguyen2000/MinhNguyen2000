@@ -22,7 +22,7 @@ Me? I am an aspiring student learning robotic programming 🤖⚙️ I am passio
 - IBM Deep Learning and Reinforcement Learning ([Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning)) => Course_IBM_DLRL repo
 
 🦾 Robotic project that I am working on
-- ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 to ROS2 so that I can leverage newer packages and longer support EOL
+- ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 Melodic + Ubuntu 18.04 to ROS2 Humble + Ubuntu 20.04 (or 22.04) so that I can leverage newer packages and longer support EOL
   => X1_ROS1_ws and X1_ROS2_ws repo
 
 📖 Books that I am reading right now
