@@ -25,7 +25,9 @@ I am an aspiring student learning robotic programming 🤖⚙️ I am passionate
 
 🦾 Current Robotic and Control Projects
 - ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 Melodic + Ubuntu 18.04 to ROS2 Humble + Ubuntu 20.04 (or 22.04) so that I can leverage newer packages and longer support EOL
-  => X1_ROS1_ws and X1_ROS2_ws repo
+  - Repo - [X1_ROS1_ws](https://github.com/MinhNguyen2000/X1_ROS1_ws) and [X1_ROS2_ws](https://github.com/MinhNguyen2000/X1_ROS2_ws)
+- Control of Inverted Pendulum
+  - Repo - [Inverted-Pendulum](https://github.com/MinhNguyen2000/Inverted-Pendulum)
 
 📖 Current Reading List:
 - Introduction to Autonomous Mobile Robots (Siegwart, Nourbakhsh, and Scaramuzza)
