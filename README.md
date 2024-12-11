@@ -15,17 +15,19 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Me? I am an aspiring student learning robotic programming 🤖⚙️ I am passionate about data-driven and learning-based methods in robotic application
+I am an aspiring student learning robotic programming 🤖⚙️ I am passionate about data-driven and learning-based methods in robotic applications.
 
-🌱 I am learning with some guidance from several courses and projects
-- Self-driving and ROS 2 ([Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control)) => bumperbot_ws repo
-- IBM Deep Learning and Reinforcement Learning ([Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning)) => Course_IBM_DLRL repo
+🌱 Current courses:
+- Self-driving and ROS 2 ([Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control))
+  - Repo - [bumperbot_ws](https://github.com/MinhNguyen2000/bumperbot_ws)
+- IBM Deep Learning and Reinforcement Learning ([Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning))
+  - Repo - [Course_IBM_DLRL](https://github.com/MinhNguyen2000/Course_IBM_DLRL)
 
-🦾 Robotic project that I am working on
+🦾 Current Robotic and Control Projects
 - ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 Melodic + Ubuntu 18.04 to ROS2 Humble + Ubuntu 20.04 (or 22.04) so that I can leverage newer packages and longer support EOL
   => X1_ROS1_ws and X1_ROS2_ws repo
 
-📖 Books that I am reading right now
+📖 Current Reading List:
 - Introduction to Autonomous Mobile Robots (Siegwart, Nourbakhsh, and Scaramuzza)
-- Understanding Deep Learning (Simon Prince) [Notebooks](https://udlbook.github.io/udlbook/)
-- Mastering ROS for Robotics Programming - Best practices and trouble shooting solutions when working with ROS (Lentin Joseph and Jonathan Cacace) [Repo](https://github.com/PacktPublishing/Mastering-ROS-for-Robotics-Programming-Third-edition)
+- Understanding Deep Learning (Simon Prince) [Book Link](https://udlbook.github.io/udlbook/)
+- Dive into Deep Learning (Zhang A., Lipton Z., Li M. and Smola A.) - [Link](https://d2l.ai/)
