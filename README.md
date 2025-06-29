@@ -19,17 +19,15 @@ I am an aspiring student learning robotic programming 🤖⚙️ I am passionate
 
 🌱 **Courses**
 
-- (Past) Self-driving and ROS 2 ([Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control))
-  - Repo - [bumperbot_ws](https://github.com/MinhNguyen2000/bumperbot_ws)
-- (Past) IBM Deep Learning and Reinforcement Learning ([Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning))
-  - Repo - [Course_IBM_DLRL](https://github.com/MinhNguyen2000/Course_IBM_DLRL)
+- [Self-driving and ROS 2 - Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control) => [bumperbot_ws Github Repo](https://github.com/MinhNguyen2000/bumperbot_ws)
+- (Finished) [IBM Deep Learning and Reinforcement Learning - Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning) => [Course_IBM_DLRL Github Repo](https://github.com/MinhNguyen2000/Course_IBM_DLRL)
 
 🦾 **Current Robotic and Control Projects**
-- Experiments with DRL algorithms in gymnasium environments ([Experiment repo](https://github.com/MinhNguyen2000/experiment/tree/main/DRL)) - I am currently testing foundational RL methods and DRL methods in two environments.
-  - **FrozenLake-v1** (discrete state and action space) for testing Monte Carlo (MC), Temporal Difference (1-step TD with n-step TD coming), and REINFORCE
-  - **CartPole-v1** (continuous state and discrete action space) for testing DQN, Double DQN, REINFORCE, A2C, and PPO
-  - (Planned) **MuJoCo** (continous state and action space) for testing A3C, PPO, and SAC in the future
-- ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 Melodic + Ubuntu 18.04 to ROS2 Humble + Ubuntu 20.04 (or 22.04) so that I can leverage newer packages and longer support EOL
+- Experiments with DRL algorithms in gymnasium environments ([experiment repo](https://github.com/MinhNguyen2000/experiment/tree/main/DRL))
+  - **FrozenLake-v1** (discrete state and action space) for testing classic RL methods such as Monte Carlo (MC), Temporal Difference (1-step TD with n-step TD coming), and REINFORCE.
+  - **CartPole-v1** (continuous state and discrete action space) for testing DQN, Double DQN, REINFORCE, A2C, and PPO.
+  - **MuJoCo InvertedPendulum-v5** (continous state and action space) for testing PPO. I will experiment with A3C and SAC in the near future.
+-  ROSMaster X1 Robot and ROS2 - I am working on migrating the source project from ROS1 Melodic + Ubuntu 18.04 to ROS2 Humble + Ubuntu 20.04 (or 22.04) so that I can leverage newer packages and longer support EOL
   - Repo - [X1_ROS1_ws](https://github.com/MinhNguyen2000/X1_ROS1_ws) and [X1_ROS2_ws](https://github.com/MinhNguyen2000/X1_ROS2_ws)
 - Control of Inverted Pendulum
   - Repo - [Inverted-Pendulum](https://github.com/MinhNguyen2000/Inverted-Pendulum)
