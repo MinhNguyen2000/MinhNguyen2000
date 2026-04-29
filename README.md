@@ -26,7 +26,7 @@ sim-to-real transfer.
   sourced replacement parts, revised motor control wiring, and implemented an LQR balancing
   controller via a Python interface between a Raspberry Pi 5 and LabJack T7 DAQ.
 
-**Stack:** Python · PyTorch · ROS2 · MuJoCo · Gymnasium · Stable Baselines3 · Docker · OpenCV
+**Stack:** `Python` · `PyTorch` · `ROS2` · `MuJoCo` · `Gymnasium` · `Stable Baselines3` · `Docker` · `OpenCV`
 
 **Currently studying:** Vision-language models (VLMs) and vision-language action models (VLAs)
 to stay current with the latest research in robot learning and embodied AI.
