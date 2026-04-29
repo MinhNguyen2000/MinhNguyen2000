@@ -1,40 +1,38 @@
-## Hello World 👋
+## Minh Nguyen | Robotics & ML
 
-<!--
-**PhantomLucario/PhantomLucario** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+MEng @ UNB · Graduating June 2026
 
-Here are some ideas to get you started:
+**Research:** Deep RL for mobile robot navigation — reward shaping, obstacle avoidance,
+sim-to-real transfer.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Overview of Projects**
+- 🧭 **DRL navigation:** Trained TD3 and SAC policies in a custom MuJoCo/Gymnasium environment
+  with domain randomization (agent, goal, obstacle), achieving >96% success over 1000 randomized
+  episodes. Reduced policy convergence time ~60% through observation space design and reward
+  engineering. Deployed trained policies as ROS2 nodes and validated in Gazebo simulation.
 
-I am an aspiring student learning robotic programming 🤖⚙️ I am passionate about data-driven and learning-based methods in robotic applications.
+- 🤖 **ROS2 robot (ROS Master X1):** Migrated a full ROS Melodic codebase to ROS2 Humble inside a
+  Docker container on a Jetson Nano. Implemented EKF sensor fusion across LiDAR scan matching,
+  wheel encoders, and IMU for robust odometry. Built a real-time perception pipeline with
+  fine-tuned YOLO (face detection) and MobileViT/ResNet (emotion recognition), optimized for
+  inference with ONNX and TensorRT.
 
-# 🌱 Courses
+- 🦾 **Trash collection robot:** Designed a 3-DoF SCARA arm for sidewalk trash collection using
+  Autodesk Inventor and 3D printing. Built a vision system on Raspberry Pi 5 with YOLOv8 and
+  MobileNet-SSD transfer learning for real-time trash detection.
 
-- [ ] [Self-driving and ROS 2 - Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control) => [bumperbot_ws Github Repo](https://github.com/MinhNguyen2000/bumperbot_ws)
-- [x] [IBM Deep Learning and Reinforcement Learning - Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning) => [Course_IBM_DLRL Github Repo](https://github.com/MinhNguyen2000/Course_IBM_DLRL)
+- 🎯 **Inverted pendulum:** Fully restored the mechanical, electrical, and firmware subsystems of
+  a physical inverted pendulum used in an advanced controls course. Redesigned the carriage,
+  sourced replacement parts, revised motor control wiring, and implemented an LQR balancing
+  controller via a Python interface between a Raspberry Pi 5 and LabJack T7 DAQ.
 
+**Stack:** Python · PyTorch · ROS2 · MuJoCo · Gymnasium · Stable Baselines3 · Docker · OpenCV
+
+**Currently studying:** Vision-language models (VLMs) and vision-language action models (VLAs)
+to stay current with the latest research in robot learning and embodied AI.
+
+---
 # 🦾 Current Robotic and Control Projects
-## Experiments with DRL algorithms ([experiment repo](https://github.com/MinhNguyen2000/experiment/tree/main/DRL))
-This is an ongoing project that helps me build the foundational knowledge of RL and DRL, as well as testing my understanding of the algorithms in gymnasium environments by creating custom-made algorithms and compared them with stable_baselines3 implementations
-  - [x] **FrozenLake-v1** (discrete state & action) for learning and testing classic RL methods such as Monte Carlo (MC), Temporal Difference (1-step TD with n-step TD coming), and REINFORCE.
-  - [x] **CartPole-v1** (continuous state & discrete action) for learning and testing DQN, Double DQN, REINFORCE, A2C, and PPO.
-  - [x] **MuJoCo environments** (continuous state & action spaces)
-    - [x] **InvertedPendulum-v5** for testing PPO, and most recently TD3. After training and fine-tuning the hyperparameters of the TD3 algorithm, I created a custom wrapper to turn the problem into a SwingupInvertedPendulum. I used this environment for experimenting with reward engineering/shaping to perform the inverted pendulum control task.
-    - [x] **InvertedDoublePendulum-v5** for testing the portability and performance of the TD3 algorithm created for the InvertedPendulum problem. The custom-made TD3 agent was able to learn without much modification, aside from some hyperparameter fine-tuning to achieve the maximum possible reward (staying healthy until episode truncation).
-    - [x] **Reacher-v5** for training a TD3 algorithm. I had the most problems with this environment, where I had to manually tweak the early stopping logic to obtain a somewhat decent policy. The TD3 algorithm showed promise in learning the desired behaviour, reaching rewards of approximately -4.5 (benchmark performance by the Tianshou DRL library was reported as -2.7 for TD3). When I retrained using the stable_baselines3 implementation, I received similar results given the same hyperparameter set.
-    - [x] **HalfCheetah-v5** for training a TD3 policy to control the forward motion of a 6-DOF robot. Given the benchmark performance of 10,000+ reward after 1,000,000 steps (Tianshou DRL library), my current implementation reached approximately 8,000 reward units in the same learning budget.
-    - [x] **Walker** for training a TD3 policy.
-    - [ ] Upcoming - experiment with A3C and SAC in the near future.
-
 ## ROSMaster X1 Robot and ROS2 
 
 → [DRL policy training repo](https://github.com/MinhNguyen2000/ROS2_DRL_Navigation)
@@ -53,7 +51,17 @@ A full-stack robotics project deploying a **deep reinforcement learning (TD3) na
 
 #### Stack
 `ROS2 Humble` `PyTorch` `Stable Baselines3` `MuJoCo` `Gymnasium` `ONNXRuntime` `TensorRT` `robot_localization` `Docker` `Jetson Nano`
-
+## Experiments with DRL algorithms ([experiment repo](https://github.com/MinhNguyen2000/experiment/tree/main/DRL))
+This is an ongoing project that helps me build the foundational knowledge of RL and DRL, as well as testing my understanding of the algorithms in gymnasium environments by creating custom-made algorithms and compared them with stable_baselines3 implementations
+  - [x] **FrozenLake-v1** (discrete state & action) for learning and testing classic RL methods such as Monte Carlo (MC), Temporal Difference (1-step TD with n-step TD coming), and REINFORCE.
+  - [x] **CartPole-v1** (continuous state & discrete action) for learning and testing DQN, Double DQN, REINFORCE, A2C, and PPO.
+  - [x] **MuJoCo environments** (continuous state & action spaces)
+    - [x] **InvertedPendulum-v5** for testing PPO, and most recently TD3. After training and fine-tuning the hyperparameters of the TD3 algorithm, I created a custom wrapper to turn the problem into a SwingupInvertedPendulum. I used this environment for experimenting with reward engineering/shaping to perform the inverted pendulum control task.
+    - [x] **InvertedDoublePendulum-v5** for testing the portability and performance of the TD3 algorithm created for the InvertedPendulum problem. The custom-made TD3 agent was able to learn without much modification, aside from some hyperparameter fine-tuning to achieve the maximum possible reward (staying healthy until episode truncation).
+    - [x] **Reacher-v5** for training a TD3 algorithm. I had the most problems with this environment, where I had to manually tweak the early stopping logic to obtain a somewhat decent policy. The TD3 algorithm showed promise in learning the desired behaviour, reaching rewards of approximately -4.5 (benchmark performance by the Tianshou DRL library was reported as -2.7 for TD3). When I retrained using the stable_baselines3 implementation, I received similar results given the same hyperparameter set.
+    - [x] **HalfCheetah-v5** for training a TD3 policy to control the forward motion of a 6-DOF robot. Given the benchmark performance of 10,000+ reward after 1,000,000 steps (Tianshou DRL library), my current implementation reached approximately 8,000 reward units in the same learning budget.
+    - [x] **Walker** for training a TD3 policy.
+    - [ ] Upcoming - experiment with A3C and SAC in the near future.
 
 ## Control of a physical inverted pendulum using LQR controller ([Inverted-Pendulum repo](https://github.com/MinhNguyen2000/Inverted-Pendulum))
 A side project that I worked on before starting my MSc in UNB, where I improved upon the physical and electrical components of an inverted pendulum, and created a control program for the system. 
@@ -66,6 +74,15 @@ A side project that I worked on before starting my MSc in UNB, where I improved 
 **Electrical improvements**
   - Previously, the inverted pendulum was controlled by an insufficiently documented microcontroller; no one knew how to operate the inverted pendulum. I was tasked with upgrading this system, using a Raspberry Pi 5 as a microcomputer that interacts with a LabJack T7 microcontroller. I wrote a short control program in Python, following a simple finite state machine architecture, to control the motion of the system throughout different states, such as calibration, zeroing, and balancing.
   - The system also had no fail-safe mechanisms aside from an E-stop, so I added two limit switches as an electrical fail-safe and implemented a software fail-safe mechanism (based on the current carriage position) in the control program
+
+---
+
+# 🌱 Courses
+
+- [x] [Self-driving and ROS 2 - Udemy](https://www.udemy.com/course/self-driving-and-ros-2-learn-by-doing-odometry-control) => [bumperbot_ws Github Repo](https://github.com/MinhNguyen2000/bumperbot_ws)
+- [x] [IBM Deep Learning and Reinforcement Learning - Coursera](https://www.coursera.org/learn/deep-learning-reinforcement-learning) => [Course_IBM_DLRL Github Repo](https://github.com/MinhNguyen2000/Course_IBM_DLRL)
+
+---
 
 # 📖 **Current Book List**
 - Reinforcement Learning - An Introduction (Sutton and Barto, 2018) [Book Link](http://incompleteideas.net/book/RLbook2020.pdf)
